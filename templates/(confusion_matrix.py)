@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay
+
+# y_test and prediction should come from train_model.py
+
+ConfusionMatrixDisplay.from_predictions(y_test, prediction)
+
+plt.savefig("screenshots/confusion_matrix.png")
+plt.show()
