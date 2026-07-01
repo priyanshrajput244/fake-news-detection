@@ -1,1 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+venv/
+.env
+
+model.pkl
+vectorizer.pkl
+
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db
