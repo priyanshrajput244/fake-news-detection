@@ -1,1 +1,14 @@
+import matplotlib.pyplot as plt
 
+accuracy = 98
+error = 2
+
+labels = ["Accuracy", "Error"]
+values = [accuracy, error]
+
+plt.figure(figsize=(6,5))
+plt.bar(labels, values)
+plt.title("Model Performance")
+plt.ylabel("Percentage")
+plt.savefig("screenshots/accuracy.png")
+plt.show()
